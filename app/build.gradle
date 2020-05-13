@@ -30,7 +30,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.core:core-ktx:1.2.0'
-    implementation 'com.github.lwjfork:DataBus:1.0.0'
+
     implementation 'com.devwu:lifecycle-observer-wrapper:0.1.0'
 
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'

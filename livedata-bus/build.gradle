@@ -48,7 +48,7 @@ rootProject.ext.DEVELOPER_NAME = "lwjfork"
 // 这里改成开发者邮箱，比如[email]someone@android.com[/email]
 rootProject.ext.DEVELOPER_EMAIL = "lwjfork@gmail.com"
 // 这里改成库版本 ， 比如22.2.0
-rootProject.ext.PROJ_VERSION = "1.0.3"
+rootProject.ext.PROJ_VERSION = "1.0.0"
 // 这里改成库名字 ， 比如appcompat
 rootProject.ext.PROJ_NAME = "LiveDataBus"
 // 这里改成github地址 ， 比如https:github.com/android/appcompat
@@ -62,13 +62,12 @@ rootProject.ext.PROJ_VCSURL = "https://github.com/lwjfork/LiveDataBus.git"
 // 这里改成库的描述信息
 rootProject.ext.PROJ_DESCRIPTION = "LiveDataBus"
 // 这里改成库的标示 ， 比如appcompat - v7
-rootProject.ext.PROJ_ARTIFACTID = "LiveDataBus"
+rootProject.ext.PROJ_ARTIFACTID = "livedata-bus"
 // 发布时必须有值，建议写到  local.properties 里 或者环境变量中，local.properties 定义优先
 rootProject.ext.BINTRAY_APIKEY = System.getenv("BINTRAY_APIKEY") //
 rootProject.ext.BINTRAY_USER = System.getenv("BINTRAY_USER")
 rootProject.ext.PROJ_PACKAGING = "aar"
 rootProject.ext.PROJ_REPO = "maven"
-
 
 
 apply from: "https://raw.githubusercontent.com/lwjfork/scriptlib/master/gradle/bintray.gradle"
