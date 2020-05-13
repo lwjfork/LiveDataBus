@@ -70,5 +70,6 @@ rootProject.ext.PROJ_PACKAGING = "aar"
 rootProject.ext.PROJ_REPO = "maven"
 
 
+
 apply from: "https://raw.githubusercontent.com/lwjfork/scriptlib/master/gradle/bintray.gradle"
 
